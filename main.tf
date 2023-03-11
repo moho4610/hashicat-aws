@@ -190,7 +190,7 @@ resource "tls_private_key" "hashicat" {
 }
 
 locals {
-  private_key_filename = "${var.prefix}-ssh-key.pem"
+  private_key_filename = "${var.prefix}-ssh-key-01.pem"
 }
 
 resource "aws_key_pair" "hashicat" {
